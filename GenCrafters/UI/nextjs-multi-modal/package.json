@@ -17,7 +17,7 @@
     "@radix-ui/react-slot": "^1.0.2",
     "ai": "^2.2.29",
     "audiobuffer-to-wav": "^1.0.0",
-    "axios": "^1.6.2",
+    "axios": "^1.20.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^1.2.1",
     "dotenv": "^16.3.1",
