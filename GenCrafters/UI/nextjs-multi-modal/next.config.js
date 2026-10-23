@@ -10,11 +10,9 @@ const nextConfig = {
     };
     return config;
   },
-  experimental: {
-    serverComponentsExternalPackages: ["llamaindex"],
-    outputFileTracingIncludes: {
-      "/*": ["./cache/**/*"],
-    },
+  serverExternalPackages: ["llamaindex"],
+  outputFileTracingIncludes: {
+    "/*": ["./cache/**/*"],
   },
 };
 
